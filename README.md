@@ -1,6 +1,6 @@
 # Reversi AI — Minimax Search in SWI-Prolog
 
-A fully playable Reversi (Othello) AI built for CS152: Harnessing Artificial Intelligence Algorithms at Minerva University. All game logic and adversarial search are implemented in SWI-Prolog; a Jupyter notebook provides an interactive ipywidgets frontend via PySwip.
+A fully playable Reversi (Othello) AI built for CS152 - Harnessing Artificial Intelligence Algorithms at Minerva University. All game logic and adversarial search are implemented in SWI-Prolog; a Jupyter notebook provides an interactive ipywidgets frontend via PySwip.
 
 ---
 
@@ -22,7 +22,7 @@ A Python layer (PySwip) bridges the Prolog engine to an ipywidgets board rendere
 |---|---|
 | `reversi.pl` | Complete Prolog game engine: board logic, move generation, heuristic evaluation, negamax alpha-beta search |
 | `reversi_ui.py` | Python/PySwip bridge and ipywidgets frontend (used if running standalone) |
-| `reversi.ipynb` | Self-contained Jupyter notebook — installs dependencies, embeds Prolog source, runs the game and analysis |
+| `Run_analysis_visualization.ipynb` | Self-contained Jupyter notebook — installs dependencies, embeds Prolog source, runs the game and analysis |
 
 ---
 
@@ -80,4 +80,4 @@ search_depth(4).
 
 ## Project Context
 
-Built as the CS152 final project. Targets the `#search` and `#aicoding` learning outcomes. The full write-up is in `cs152_final_report.docx`.
+Built as the CS152 (Harnessing Artificial Intelligence Algorithms) final project. 
